@@ -65,6 +65,7 @@ for date in (start_date + timedelta(n) for n in range(days_count)):
     # To make datetime.date object JSON serializable
     date_json = json.dumps(date, indent=4, cls=DateTimeEncoder)
     date_modified = date_json[1:11]
+    
     payload = {
         "parent": {
             "database_id": NOTION_HABIT_DB
