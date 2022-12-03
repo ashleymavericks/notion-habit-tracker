@@ -22,7 +22,7 @@ response_analytics_db = requests.post(
     base_db_url + analytics_db_id + "/query", headers=header)
 
 # define no. of new pages/records to be added in Tracker
-days_count = 30
+days_count = 365
 
 # subclass JSONEncoder
 class DateTimeEncoder(JSONEncoder):
