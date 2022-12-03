@@ -5,14 +5,14 @@
 <br>
 A fully automated Notion Habit Tracker template with real-time performance graph and monthly analytics.
 
-[![notion_habit_tracket](/assets/notion_habit_tracker_public_page.png)](https://www.notion.so/ashleymavericks/Habit-Tracker-with-Monthly-Analytics-f2eb2e10ae9840249e040d9f2e0caa87)
+[![notion_habit_tracket](/assets/notion_habit_tracker_public_page.png)](https://ashleymavericks.gumroad.com/l/notion-habit-tracker)
 
 </div>
 
 ***
 
 ## Setup Pre-requisites
-- Duplicate this [Notion Template](https://www.notion.so/ashleymavericks/Habit-Tracker-with-Monthly-Analytics-f2eb2e10ae9840249e040d9f2e0caa87) to get started.
+- Duplicate this [Notion Template](https://ashleymavericks.gumroad.com/l/notion-habit-tracker) to get started.
 - Use services like [Notion Charts](https://notioncharts.io/) and [Data Jumbo](https://www.datajumbo.co/) to have the monthly analytics chart for your habits database.
 
 ## No Code Approach
