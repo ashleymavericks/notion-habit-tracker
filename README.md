@@ -32,16 +32,24 @@ https://www.notion.so/myworkspace/a8aec43384f447ed84390e8e42c2e089?v=...
 ```
 
 ## Script Usage
-1. Create an empty Python file called env_vars.py
-2. Add NOTION_HABIT_DB, NOTION_ANALYTICS_DB and [NOTION_SECRET_KEY](https://syncwith.com/p/notion-api-key-qrsJHMnH5LuHUjDqvZnmWC) within quotes.
-```python
-NOTION_SECRET_KEY = "REPLACE_ME"
-NOTION_HABIT_DB = "REPLACE_ME"
-NOTION_ANALYTICS_DB = "REPLACE_ME"
+1. Clone the repo
+```bash
+git clone https://github.com/ashleymavericks/notion-habit-tracker.git
 ```
-3. Run the Script, it may take some time to complete. And, if you have pre
+2. Create a .env file in the project folder
+3. Add NOTION_HABIT_DB, NOTION_ANALYTICS_DB and [NOTION_SECRET_KEY](https://syncwith.com/p/notion-api-key-qrsJHMnH5LuHUjDqvZnmWC) in .env file
+```python
+NOTION_SECRET_KEY=PASTE_KEY_HERE
+NOTION_HABIT_DB=PASTE_KEY_HERE
+NOTION_ANALYTICS_DB=PASTE_KEY_HERE
+```
+4. Run the Script called `main.py`, it may take some time to complete.
 ```python
 python3 main.py
+```
+5. Due to Notion API rate throttling, the script might not able to remove a huge number of previous year records at once, in that scenario kindly run `remove_page.py` until all records get purged
+```python
+python3 remove_page.py
 ```
 
 ## Contributing
