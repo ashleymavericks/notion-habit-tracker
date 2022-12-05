@@ -38,17 +38,21 @@ git clone https://github.com/ashleymavericks/notion-habit-tracker.git
 ```
 2. Create a .env file in the project folder
 3. Add NOTION_HABIT_DB, NOTION_ANALYTICS_DB and [NOTION_SECRET_KEY](https://syncwith.com/p/notion-api-key-qrsJHMnH5LuHUjDqvZnmWC) in .env file
-```python
+```bash
 NOTION_SECRET_KEY=PASTE_KEY_HERE
 NOTION_HABIT_DB=PASTE_KEY_HERE
 NOTION_ANALYTICS_DB=PASTE_KEY_HERE
 ```
-4. Run the Script called `main.py`, it may take some time to complete.
-```python
+4. Install project dependencies
+```bash
+pipenv install
+```
+5. Run the Script called `main.py`, it may take some time to complete.
+```bash
 python3 main.py
 ```
-5. Due to Notion API rate throttling, the script might not able to remove a huge number of previous year records at once, in that scenario kindly run `remove_page.py` until all records get purged
-```python
+6. Due to Notion API rate throttling, the script might not able to remove a huge number of previous year records at once, in that scenario kindly run `remove_page.py` until all records get purged
+```bash
 python3 remove_page.py
 ```
 
