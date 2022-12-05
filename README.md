@@ -1,12 +1,9 @@
 <div align="center">
 <h1 align="center">Notion Habit Tracker</h1>
-<br />
-<img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-blue.svg" /><br>
-<br>
-A fully automated Notion Habit Tracker template with real-time performance graph and monthly analytics.
-
+<img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-blue.svg"/><br>
+A fully automated Notion Habit Tracker template with real-time performance graph and monthly analytics.<br>
+  
 [![notion_habit_tracket](/assets/notion_habit_tracker_public_page.png)](https://ashleymavericks.gumroad.com/l/notion-habit-tracker)
-
 </div>
 
 ***
