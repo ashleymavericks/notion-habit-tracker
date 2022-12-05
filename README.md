@@ -9,7 +9,8 @@ A fully automated Notion Habit Tracker template with real-time performance graph
 ***
 ## Features
 - Automated daily page addition, either via Notion template repeat feature or by running the Python script once a year
-- Monthly analytics giving % completion insights
+- Script will also automatically delete any previous year pages so that they won't mess up with monthly analytics
+- Monthly analytics provide Habits completion percentage insights using star ratings
 - Real-time daily performance charts
 - Habit completion visual cues using progress bar and custom star ratings
 
@@ -38,13 +39,13 @@ NOTION_SECRET_KEY = "REPLACE_ME"
 NOTION_HABIT_DB = "REPLACE_ME"
 NOTION_ANALYTICS_DB = "REPLACE_ME"
 ```
-3. Run the Script
+3. Run the Script, it may take some time to complete. And, if you have pre
 ```python
 python3 main.py
 ```
 
 ## Contributing
-Feel free to reach out, if you want to futher improve the template.
+Feel free to reach out, if you want to further improve the template.
 
 ## License
 This project is licensed under the MIT license
