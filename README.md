@@ -20,8 +20,26 @@ A fully automated Notion Habit Tracker template with real-time performance graph
 ## No Code Approach
 - With the new notion recurring template update, you can simply set an individual weekday template for a weekly repeat and it will automatically add a new page to the database.
 
-## Script Usage
+## Find Database ID
+Login Notion in a browser and viewing the database as a full page, the database ID is the part of the URL after your workspace name and the slash (acme/) and before the question mark (?). The ID is 32 characters long, containing numbers and letters. Copy the ID and paste it somewhere you can easily find later.
+
+Repeat this process for both Habits DB and Analytics DB, and take a note of these Database IDs
+
 ```
+https://www.notion.so/myworkspace/a8aec43384f447ed84390e8e42c2e089?v=...
+                                  |--------- Database ID --------|
+```
+
+## Script Usage
+1. Create an empty Python file called env_vars.py
+2. Add NOTION_HABIT_DB, NOTION_ANALYTICS_DB and [NOTION_SECRET_KEY](https://syncwith.com/p/notion-api-key-qrsJHMnH5LuHUjDqvZnmWC) within quotes.
+```python
+NOTION_SECRET_KEY = "REPLACE_ME"
+NOTION_HABIT_DB = "REPLACE_ME"
+NOTION_ANALYTICS_DB = "REPLACE_ME"
+```
+3. Run the Script
+```python
 python3 main.py
 ```
 
