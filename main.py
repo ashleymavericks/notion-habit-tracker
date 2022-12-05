@@ -22,11 +22,9 @@ response_analytics_db = requests.post(
     base_db_url + os.getenv('NOTION_ANALYTICS_DB') + "/query", headers=header)
 
 # define no. of new pages/records to be added in Tracker
-days_count = 1
+days_count = 365
 
 # subclass JSONEncoder
-
-
 class DateTimeEncoder(JSONEncoder):
     # Override the default method
     def default(self, obj):
