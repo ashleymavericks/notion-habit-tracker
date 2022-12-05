@@ -47,7 +47,7 @@ NOTION_ANALYTICS_DB=PASTE_KEY_HERE
 ```bash
 pipenv install
 ```
-5. Run the Script called `main.py`, it may take some time to complete.
+5. Run the Script called `main.py`, it may take some time to complete
 ```bash
 python3 main.py
 ```
