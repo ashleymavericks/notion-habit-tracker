@@ -96,7 +96,7 @@ for date in (start_date + timedelta(n) for n in range(days_count)):
         "cover": {
             "type": "external",
             "external": {
-                "url": "https://github.com/ashleymavericks/notion-habit-tracker/blob/master/assets/" + day + ".png?raw=true"
+                "url": "https://github.com/ashleymavericks/notion-habit-tracker/blob/main/assets/" + day + ".png?raw=true"
             }
         },
         "properties": {
