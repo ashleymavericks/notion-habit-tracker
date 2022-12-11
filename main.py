@@ -31,10 +31,8 @@ class DateTimeEncoder(JSONEncoder):
         if isinstance(obj, (datetime.date, datetime.datetime)):
             return obj.isoformat()
 
-
 date_list = list()
 month_dict = dict()
-
 
 # Deleting previous year data, else it will mess up with monthly analytics
 for page in response_habits_db.json()['results']:
@@ -66,9 +64,7 @@ for page in response_habits_db.json()['results']:
     props = page['properties']
     current_month = props['Date']['date']['start']
     date_object = date.fromisoformat(current_month)
-
-    if date_object.month == date.today().month:
-        date_list.append(date_object)
+    date_list.append(date_object)
 
 if not date_list:
     start_date = date.today()
