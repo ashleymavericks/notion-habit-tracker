@@ -17,7 +17,7 @@ A fully automated Notion Habit Tracker template with real-time performance graph
 
 ## Setup Pre-requisites
 - Duplicate this [Notion Template](https://ashleymavericks.gumroad.com/l/notion-habit-tracker) to get started.
-- Use services like [Notion Charts](https://notioncharts.io/) and [Data Jumbo](https://www.datajumbo.co/) to have the monthly analytics chart for your habits database.
+- Use services like [ChartBase](https://www.chartbase.so/) and [Data Jumbo](https://www.datajumbo.co/) to have the monthly analytics chart for your habits database.
 
 ## No Code Approach
 - With the new notion recurring template update, you can simply set an individual weekday template for a weekly repeat and it will automatically add a new page to the database.
