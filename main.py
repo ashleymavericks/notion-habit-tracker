@@ -15,11 +15,14 @@ base_pg_url = "https://api.notion.com/v1/pages/"
 header = {"Authorization": os.getenv('NOTION_SECRET_KEY'),
           "Notion-Version": "2021-05-13", "Content-Type": "application/json"}
 
+notion_habit_db = os.getenv('NOTION_HABIT_DB')
+notion_analytics_db = os.getenv('NOTION_ANALYTICS_DB')
+
 response_habits_db = requests.post(
-    base_db_url + os.getenv('NOTION_HABIT_DB') + "/query", headers=header)
+    base_db_url + notion_habit_db + "/query", headers=header)
 
 response_analytics_db = requests.post(
-    base_db_url + os.getenv('NOTION_ANALYTICS_DB') + "/query", headers=header)
+    base_db_url + notion_analytics_db + "/query", headers=header)
 
 # define no. of new pages/records to be added in Tracker
 days_count = 365
@@ -91,7 +94,7 @@ for date in (start_date + timedelta(n) for n in range(days_count)):
 
     payload = {
         "parent": {
-            "database_id": os.getenv('NOTION_HABIT_DB')
+            "database_id": notion_habit_db
         },
         "cover": {
             "type": "external",
