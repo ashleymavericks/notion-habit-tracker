@@ -16,7 +16,7 @@ A fully automated Notion Habit Tracker template with real-time performance graph
 - Notion formulae are used in a way, that user will only see current week and current monthly graph performance
 
 ## Demo Video
-[![alt text](https://img.youtube.com/vi/tDbUbqv4S0c/0.jpg)](https://www.youtube.com/watch?v=tDbUbqv4S0c)
+[<img src="https://img.youtube.com/vi/tDbUbqv4S0c/maxresdefault.jpg" width="50%">](https://youtu.be/tDbUbqv4S0c)
 
 ## Setup Pre-requisites
 - Duplicate this [Notion Template](https://ashleymavericks.gumroad.com/l/notion-habit-tracker) to get started.
