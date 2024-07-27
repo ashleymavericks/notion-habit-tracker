@@ -15,6 +15,9 @@ A fully automated Notion Habit Tracker template with real-time performance graph
 - Habit completion visual cues using progress bar and custom star ratings
 - Notion formulae are used in a way, that user will only see current week and current monthly graph performance
 
+## Demo Video
+[![alt text](https://img.youtube.com/vi/tDbUbqv4S0c/0.jpg)](https://www.youtube.com/watch?v=tDbUbqv4S0c)
+
 ## Setup Pre-requisites
 - Duplicate this [Notion Template](https://ashleymavericks.gumroad.com/l/notion-habit-tracker) to get started.
 - Use services like [ChartBase](https://www.chartbase.so/) and [Data Jumbo](https://www.datajumbo.co/) to have the monthly analytics chart for your habits database.
