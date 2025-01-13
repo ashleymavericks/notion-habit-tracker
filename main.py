@@ -86,7 +86,7 @@ for date in (start_date + timedelta(n) for n in range(days_count)):
     day = date.strftime('%A')
     month = date.strftime('%B')
     relation_id = month_dict[month]
-    date_string = date.strftime('%B %-d, %Y')
+    date_string = date.strftime('%B %d, %Y').replace(' 0', ' ')
 
     # To make datetime.date object JSON serializable
     date_json = json.dumps(date, indent=4, cls=DateTimeEncoder)
